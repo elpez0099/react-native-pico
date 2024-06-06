@@ -1,15 +1,12 @@
-1) npx expo login
-  1.1) Instalar Expo
-  1.2) Proporcionar credenciales
-2) crear proyecto de expo con npx create-expo-app@latest [project-name] -template blank@latest
+1) Instalar Expo
+2) Proporcionar credenciales - npx expo login
+3) crear proyecto de expo con npx create-expo-app@latest [project-name] -template blank@latest o npx create-expo-app@latest project-name -t blank
 
-
-
-3) instalar librerias
+4) instalar librerias
 npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
 
 
-4) Abrir Package.json y reemplazar 
+5) Abrir Package.json y reemplazar 
   "main": "expo/AppEntry.js" 
 
   por:
